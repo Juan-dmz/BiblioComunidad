@@ -1,0 +1,24 @@
+{
+    "lectores": [
+        {"documento": "1001", "nombre": "Ana Torres", "telefono": "3001112233"},
+        {"documento": "1002", "nombre": "Carlos Pérez", "telefono": "3002223344"},
+        {"documento": "1003", "nombre": "Laura Gómez", "telefono": "3003334455"},
+        {"documento": "1004", "nombre": "Mateo Ruiz", "telefono": "3004445566"},
+        {"documento": "1005", "nombre": "Sofía Martínez", "telefono": "3005556677"}
+    ],
+    "ejemplares": [
+        {"codigo": "E001", "titulo": "Cien años de soledad", "autor": "Gabriel García Márquez", "disponible": false},
+        {"codigo": "E002", "titulo": "El principito", "autor": "Antoine de Saint-Exupéry", "disponible": true},
+        {"codigo": "E003", "titulo": "1984", "autor": "George Orwell", "disponible": true},
+        {"codigo": "E004", "titulo": "Don Quijote de la Mancha", "autor": "Miguel de Cervantes", "disponible": false},
+        {"codigo": "E005", "titulo": "La metamorfosis", "autor": "Franz Kafka", "disponible": true},
+        {"codigo": "E006", "titulo": "Rayuela", "autor": "Julio Cortázar", "disponible": true}
+    ],
+    "prestamos": [
+        {"id": "P001", "lector": "1001", "ejemplar": "E001", "dias": 7, "estado": "ACTIVO"},
+        {"id": "P002", "lector": "1002", "ejemplar": "E002", "dias": 5, "estado": "DEVUELTO"},
+        {"id": "P003", "lector": "1003", "ejemplar": "E003", "dias": 10, "estado": "DEVUELTO"},
+        {"id": "P004", "lector": "1004", "ejemplar": "E004", "dias": 8, "estado": "ACTIVO"},
+        {"id": "P005", "lector": "1001", "ejemplar": "E005", "dias": 4, "estado": "DEVUELTO"}
+    ]
+}

@@ -1,0 +1,19 @@
+PRUEBAS DE INTEGRACIÓN - BIBLIOCOMUNIDAD
+P01: OK - Registro válido de lector
+P02: OK - Duplicado rechazado sin cambiar la colección
+P03: OK - Búsqueda inexistente
+P04: OK - Lista vacía se maneja sin error
+P04B: OK - Segundo lector para pruebas relacionadas
+P04C: OK - Ejemplar base registrado
+P04D: OK - Ejemplar sin historial registrado
+P05: OK - Días inválidos rechazados sin alterar estado
+P06: OK - Préstamo válido cambia disponibilidad
+P07: OK - Conflicto de disponibilidad rechazado
+P08: OK - Devolución libera ejemplar
+P09: OK - Segunda devolución rechazada
+P10: OK - Eliminación permitida sin historial
+P11: OK - Eliminación rechazada con historial
+P11B: OK - Lector con historial no se elimina
+P12: OK - Persistencia recupera datos, estado y asociaciones
+
+Total: 16 pruebas aprobadas.
